@@ -9,7 +9,7 @@
         }
     ],
     "require": {
-        "evolutionmedia/revolphp": "1.0.0",
+        "evolutionmedia/revolphp": "^1.0.1-ALPHA",
         "phpunit/phpunit": "^7.0"
     },
     "autoload": {
