@@ -1,0 +1,29 @@
+{
+    "name": "evolutionmedia/revolphp-app",
+    "description": "Project template with evolutionmedia/revolphp",
+    "type": "project",
+    "authors": [
+        {
+            "name": "BitAuthority",
+            "email": "thebitauthority@gmail.com"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "path",
+            "url": "/home/neol/projects/revolphp"
+        }
+    ],
+    "require": {
+        "evolutionmedia/revolphp": "1.0.0",
+        "phpunit/phpunit": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        },
+        "files": [
+            "vendor/evolutionmedia/revolphp/src/Helpers/autoload.php"
+        ]
+    }
+}
