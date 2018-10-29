@@ -8,12 +8,6 @@
             "email": "thebitauthority@gmail.com"
         }
     ],
-    "repositories": [
-        {
-            "type": "path",
-            "url": "/home/neol/projects/revolphp"
-        }
-    ],
     "require": {
         "evolutionmedia/revolphp": "1.0.0",
         "phpunit/phpunit": "^7.0"
